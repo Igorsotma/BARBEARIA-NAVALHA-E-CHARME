@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    font-family: Tahoma;
+}
+
+/*SEÇÃO TOPO*/
+.secao{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.paragrafo{
+    margin: 10px auto;
+    width: 980px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+
+}
+.imagem-logo{
+    width: 150px;
+    transition: transform 0.3s ease;
+    
+}
+.imagem-logo:hover{
+    transform: scale(1.2);
+}
+.secao-topo{
+    background-color: #000000;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.paragrafo-topo{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.links-topo{
+    font-size: 18px;
+    color: #ffffff;
+    border-bottom: 2px solid #B8860B;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+/*SEÇÃO AREA PRINCIPAL*/
+.secao-areaprincipal {
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color:  #f2f2f2;
+}
+.imagem-background{
+
+}
+/*SEÇÃO SOBRE NÓS*/
+.secao-sobrenos{
+    background-color: #f2f2f2;
+}
+span{
+    font-weight: bold;
+}
+h1{
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+.texto-dourado{
+    color: #D4AF37;
+    margin-top: 0px;
+    font-weight: normal;
+}
+.imagem-sobrenos{
+    width: 450px;
+}
+.texto-douradodestaque{
+    color:  #c8a25f;
+    font-weight: bold;
+}
+/*SEÇÃO SERVICOS*/
+.secao-servicos{
+    background-color: #121212;
+}
+.subtitulos-estilos{
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+.paragrafo-servicos{
+    color: #ffffff;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+    width: 700px;
+    
+}
+.texto-amarelo{
+    font-weight: bold;
+    color: #d4af37;
+}
+.lista-servicos{
+    text-align: center;
+    list-style-position: inside;
+    margin: 0 auto;
+    padding: 0;
+}
+.lista-itensservicos{
+    color: #ffffff;
+    line-height: 42px;
+    text-align: center;
+    font-size: 22px;
+    margin: 10px 20px;
+
+}
+/*SEÇÃO EQUIPE*/
+.secao-imagem{
+    background-color: #ffffff;
+}
+.imagem-equipe{
+    width: 350px;
+}
+/*SEÇÃO CONTATO*/
+.secao-contato{
+    background-color: #121212;
+}
+.paragrafo-contato{
+    color: #ffffff;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.lista-secao-contato{
+    margin: 40px auto 40px auto;
+    width: 210px;
+    list-style: none;
+}
+.item-secao-contato{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+.botao-whatsapp {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.botao-whatsapp:hover {
+  background-color: #1ebc57;
+  transform: scale(1.2);
+}
+.imagem-zapp{
+    width: 150px;
+    transition: transform 0.3s ease;
+}
+.imagem-zapp:hover{
+    transform: scale(2.2);
+}
